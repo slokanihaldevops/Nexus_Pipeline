@@ -17,6 +17,12 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+<distributionManagement>
+  <repository>
+    <id>simpleapp-release</id>
+    <url>http://18.218.187.235:8081/nexus/content/repositories/simpleapp-release</url>
+  </repository>
+</distributionManagement>
 
 	</dependencies>
 	
